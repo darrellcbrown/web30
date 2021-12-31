@@ -1,89 +1,125 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T17:23:48.874Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="EJ3YSOtA2u-K_OcIqId2" version="16.1.0" type="github" pages="3">
-  <diagram id="BXRXIyV9aGpNl1yjFL_R" name="Plutus">
-    <mxGraphModel dx="1580" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2021-12-31T20:13:49.002Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="QeaJNYK0cbLWEM70zWWV" version="16.1.0" type="github" pages="2">
+  <diagram id="Yn_5pFy_nkGueD1fNq4t" name="PAF">
+    <mxGraphModel dx="948" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="UthBZAYZFzOmvgGnQ_x1-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry width="1100" height="120" as="geometry" />
+        <mxCell id="uvrChElekTXRcb6Jiwn4-0" />
+        <mxCell id="uvrChElekTXRcb6Jiwn4-1" parent="uvrChElekTXRcb6Jiwn4-0" />
+        <mxCell id="uvrChElekTXRcb6Jiwn4-12" value="Plutus Application Backend" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=bottom;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="640" y="200" width="260" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="UthBZAYZFzOmvgGnQ_x1-2" value="Cardano Building Blocks" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=42;" parent="1" vertex="1">
-          <mxGeometry x="40" y="40" width="510" height="30" as="geometry" />
+        <mxCell id="uvrChElekTXRcb6Jiwn4-11" value="Plutus Application Framework" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=bottom;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="240" y="200" width="280" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wad8D4-TJbO1kWENdLwV-33" target="Wad8D4-TJbO1kWENdLwV-35">
+        <mxCell id="uvrChElekTXRcb6Jiwn4-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;" edge="1" parent="uvrChElekTXRcb6Jiwn4-1" source="uvrChElekTXRcb6Jiwn4-2" target="uvrChElekTXRcb6Jiwn4-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="680" y="490" as="sourcePoint" />
-            <mxPoint x="610" y="390" as="targetPoint" />
+            <mxPoint x="320" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wad8D4-TJbO1kWENdLwV-27" target="Wad8D4-TJbO1kWENdLwV-31">
+        <mxCell id="uvrChElekTXRcb6Jiwn4-2" value="Developer" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/blockchain_developer.svg;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="120" y="230" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;sketch=1;" edge="1" parent="uvrChElekTXRcb6Jiwn4-1" source="uvrChElekTXRcb6Jiwn4-5" target="StGZsHZKGfSwOAOjw5RY-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=10;sketch=1;" edge="1" parent="uvrChElekTXRcb6Jiwn4-1" source="uvrChElekTXRcb6Jiwn4-5" target="StGZsHZKGfSwOAOjw5RY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uvrChElekTXRcb6Jiwn4-5" value="Plutus Application" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/mobile_app.svg;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="350" y="230" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;sketch=1;" edge="1" parent="uvrChElekTXRcb6Jiwn4-1" source="StGZsHZKGfSwOAOjw5RY-0" target="StGZsHZKGfSwOAOjw5RY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-0" value="Smart&lt;br&gt;Contract" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;dashed=1;fillColor=none;fontSize=10;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="260" y="340" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="uvrChElekTXRcb6Jiwn4-1" source="StGZsHZKGfSwOAOjw5RY-1" target="StGZsHZKGfSwOAOjw5RY-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;sketch=1;" edge="1" parent="uvrChElekTXRcb6Jiwn4-1" source="StGZsHZKGfSwOAOjw5RY-1" target="StGZsHZKGfSwOAOjw5RY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-1" value="Compiler" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;dashed=1;fillColor=none;fontSize=10;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="390" y="340" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;sketch=1;" edge="1" parent="uvrChElekTXRcb6Jiwn4-1" source="StGZsHZKGfSwOAOjw5RY-2" target="StGZsHZKGfSwOAOjw5RY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-2" value="Pub Sub" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;dashed=1;fillColor=none;fontSize=10;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="260" y="425" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="uvrChElekTXRcb6Jiwn4-1" source="StGZsHZKGfSwOAOjw5RY-3" target="StGZsHZKGfSwOAOjw5RY-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;startArrow=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;sketch=1;" edge="1" parent="uvrChElekTXRcb6Jiwn4-1" source="StGZsHZKGfSwOAOjw5RY-3" target="StGZsHZKGfSwOAOjw5RY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-3" value="Ledger&lt;br&gt;Interface" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;dashed=1;fillColor=none;fontSize=10;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="390" y="425" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.04;entryY=0.487;entryDx=0;entryDy=0;fontSize=10;entryPerimeter=0;sketch=1;" edge="1" parent="uvrChElekTXRcb6Jiwn4-1" source="StGZsHZKGfSwOAOjw5RY-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="620" as="sourcePoint" />
-            <mxPoint x="540" y="620" as="targetPoint" />
+            <mxPoint x="661.1999999999998" y="539.6100000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-27" value="Wallet" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/wallet.svg;" vertex="1" parent="1">
-          <mxGeometry x="160" y="670" width="60" height="60" as="geometry" />
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-4" value="Wallet" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;dashed=1;fillColor=none;fontSize=10;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="260" y="510" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wad8D4-TJbO1kWENdLwV-28" target="Wad8D4-TJbO1kWENdLwV-27">
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;sketch=1;" edge="1" parent="uvrChElekTXRcb6Jiwn4-1" source="StGZsHZKGfSwOAOjw5RY-7" target="StGZsHZKGfSwOAOjw5RY-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-28" value="Plutus Application Backend" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/application_logic.svg;" vertex="1" parent="1">
-          <mxGeometry x="160" y="540" width="60" height="60" as="geometry" />
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-7" value="Core&lt;br&gt;Interface" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;dashed=1;fillColor=none;fontSize=10;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="785" y="425" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wad8D4-TJbO1kWENdLwV-30" target="Wad8D4-TJbO1kWENdLwV-33">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-30" value="Plutus Ledger" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/ledger.svg;" vertex="1" parent="1">
-          <mxGeometry x="580" y="540" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wad8D4-TJbO1kWENdLwV-31" target="Wad8D4-TJbO1kWENdLwV-30">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-31" value="Plutus Node" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/app_server.svg;" vertex="1" parent="1">
-          <mxGeometry x="580" y="670" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-33" value="Plutus Interface" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/runtime_services.svg;" vertex="1" parent="1">
-          <mxGeometry x="580" y="430" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-35" value="Plutus Core" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/services.svg;" vertex="1" parent="1">
-          <mxGeometry x="580" y="280" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wad8D4-TJbO1kWENdLwV-36" target="Wad8D4-TJbO1kWENdLwV-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wad8D4-TJbO1kWENdLwV-36" target="Wad8D4-TJbO1kWENdLwV-30">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-36" value="Plutus Interface to Ledger" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/runtime_services.svg;" vertex="1" parent="1">
-          <mxGeometry x="360" y="540" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wad8D4-TJbO1kWENdLwV-38" target="Wad8D4-TJbO1kWENdLwV-36">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wad8D4-TJbO1kWENdLwV-38" target="Wad8D4-TJbO1kWENdLwV-35">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-38" value="Compiler" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/communication.svg;" vertex="1" parent="1">
-          <mxGeometry x="360" y="410" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="Wad8D4-TJbO1kWENdLwV-44" target="Wad8D4-TJbO1kWENdLwV-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wad8D4-TJbO1kWENdLwV-41" target="Wad8D4-TJbO1kWENdLwV-38">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-41" value="Plutus Application" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/api_developer_portal.svg;" vertex="1" parent="1">
-          <mxGeometry x="260" y="280" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-44" value="Plutus Application Library" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/annotate.svg;" vertex="1" parent="1">
-          <mxGeometry x="160" y="410" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Wad8D4-TJbO1kWENdLwV-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wad8D4-TJbO1kWENdLwV-41" target="Wad8D4-TJbO1kWENdLwV-44">
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;sketch=1;" edge="1" parent="uvrChElekTXRcb6Jiwn4-1" source="StGZsHZKGfSwOAOjw5RY-9" target="StGZsHZKGfSwOAOjw5RY-32">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="370" as="sourcePoint" />
-            <mxPoint x="190" y="540" as="targetPoint" />
+            <mxPoint x="790" y="455" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-9" value="Ledger" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;dashed=1;fillColor=none;fontSize=10;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="665" y="425" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-13" value="Plutus &lt;br&gt;Core" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;dashed=1;fillColor=none;fontSize=10;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="785" y="340" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;sketch=1;" edge="1" parent="uvrChElekTXRcb6Jiwn4-1" source="StGZsHZKGfSwOAOjw5RY-19" target="StGZsHZKGfSwOAOjw5RY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-19" value="Node" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;dashed=1;fillColor=none;fontSize=10;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="665" y="510" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-22" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/wallet.svg;fillColor=none;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="250" y="525" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-23" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/smart_contract.svg;fillColor=none;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="250" y="352.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-24" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/message_bus.svg;fillColor=none;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="250" y="440" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-25" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/services.svg;fillColor=none;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="380" y="440" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-27" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/api_polyglot_runtimes.svg;fillColor=none;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="380" y="352.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-30" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/ledger.svg;fillColor=none;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="660" y="440" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-31" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/node.svg;fillColor=none;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="660" y="525" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-32" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/services.svg;fillColor=none;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="780" y="440" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="StGZsHZKGfSwOAOjw5RY-33" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/client_application.svg;fillColor=none;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="780" y="355" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vEgixcXaE45lqCP0Lwd9-0" value="Off-Chain" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontSize=10;fontColor=#333333;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="240" y="200" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vEgixcXaE45lqCP0Lwd9-1" value="On-Chain" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontSize=10;fontColor=#333333;sketch=1;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
+          <mxGeometry x="640" y="200" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -118,43 +154,6 @@
         </mxCell>
         <mxCell id="JWzkYeqcmsaIC952Ttx2-1" value="Extended Unspent Transaction Model" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=42;" vertex="1" parent="Mx3DKgNU9jCQ31hHWE8s-1">
           <mxGeometry x="40" y="40" width="970" height="30" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="Yn_5pFy_nkGueD1fNq4t" name="PAF">
-    <mxGraphModel dx="1422" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
-      <root>
-        <mxCell id="uvrChElekTXRcb6Jiwn4-0" />
-        <mxCell id="uvrChElekTXRcb6Jiwn4-1" parent="uvrChElekTXRcb6Jiwn4-0" />
-        <mxCell id="uvrChElekTXRcb6Jiwn4-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uvrChElekTXRcb6Jiwn4-1" source="uvrChElekTXRcb6Jiwn4-2" target="uvrChElekTXRcb6Jiwn4-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uvrChElekTXRcb6Jiwn4-2" value="User" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/blockchain_developer.svg;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
-          <mxGeometry x="160" y="280" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uvrChElekTXRcb6Jiwn4-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uvrChElekTXRcb6Jiwn4-1" source="uvrChElekTXRcb6Jiwn4-5" target="uvrChElekTXRcb6Jiwn4-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="uvrChElekTXRcb6Jiwn4-5" value="Client Application" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/mobile_app.svg;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
-          <mxGeometry x="280" y="280" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uvrChElekTXRcb6Jiwn4-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uvrChElekTXRcb6Jiwn4-1" source="uvrChElekTXRcb6Jiwn4-6" target="uvrChElekTXRcb6Jiwn4-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="uvrChElekTXRcb6Jiwn4-6" value="Node" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/node.svg;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
-          <mxGeometry x="440" y="280" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uvrChElekTXRcb6Jiwn4-8" value="Ledger" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/blockchain/ledger.svg;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
-          <mxGeometry x="560" y="280" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uvrChElekTXRcb6Jiwn4-11" value="Plutus Application Framework" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=bottom;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
-          <mxGeometry x="240" y="200" width="140" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="uvrChElekTXRcb6Jiwn4-12" value="Plutus Application Backend" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=bottom;" vertex="1" parent="uvrChElekTXRcb6Jiwn4-1">
-          <mxGeometry x="400" y="200" width="260" height="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
